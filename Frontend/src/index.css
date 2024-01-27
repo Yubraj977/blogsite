@@ -1,19 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   /* border: 1px solid red; */
-  
 }
-h1{
+h1 {
   font-size: 20px;
   font-weight: bolder;
- 
 }
-p{
+p {
   font-weight: 400;
-  
+}
+html {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
 
+  color: #ebe7ef;
+  background: radial-gradient(#280a48, #20043d);
+}
+.navBg {
+  background: radial-gradient(#120223, #20043d);
 }
